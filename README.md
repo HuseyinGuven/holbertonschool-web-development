@@ -13,4 +13,4 @@ The SmileSchool website is designed to be an engaging and informative platform w
 - FAQ: Frequently asked questions to help users understand the platform better.
 - Footer: Links to social media and copyright information.
 
-![preview](URL)
+![preview](1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg)
