@@ -1,22 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-    display: block;
-    height: 100vh;
+  display: block;
+  height: 100vh;
 }
 
 header {
-    background-image: url(/wwwroot/img/background.png);
-    background-position: center;
+  background-image: url(/html_advanced/wwwroot/img/background.png);
+  background-position: center;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navBar a {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+.navList li {
+  margin-right: 20px;
+}
+
+
+
 .quote {
-    background-color: #C271FF;
+  background-color: #c271ff;
 }
