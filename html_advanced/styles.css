@@ -5,6 +5,8 @@
   color: white;
   list-style: none;
   text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+
 }
 
 body {
@@ -79,7 +81,7 @@ header {
   font-weight: lighter;
 }
 
-.banner h2 .pink {
+.pink {
   color: #c271ff;
   font-weight: bold;
 }
@@ -116,9 +118,8 @@ header {
   background-color: #c271ff;
   background-position: center;
   width: auto;
-  margin: 0 auto;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
 }
 
@@ -126,7 +127,7 @@ header {
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 90px auto;
+  margin: 90px 200px;
 }
 
 .quote .container img {
@@ -134,5 +135,156 @@ header {
 }
 
 .authorContainer {
+    font-size: 22px;
+}
+
+.authorContainer blockquote {
+  margin-bottom: 22px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.videos{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-position: center;
+  width: auto;
+  margin: 90px auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.videoCards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videopreview {
+  display: block;
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.videoCards .card{
+  padding: 15px;
+}
+
+.cardTitle{
+  padding: 15px;
+}
+
+.videos h1 {
+  align-self: center;
+  justify-self: center;
+  color: black;
+  margin-bottom: 75px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+
+.videoCards .card h2 {
+  color: black;
+  margin-bottom: 8px;
+}
+
+.videoCards .card h3{
+  color: #C271FF;
+  margin-bottom: 15px;
+}
+
+.videoCards .card p {
+  font-size: 14px;
+  color:rgba(7, 22, 41, 0.5);
+  margin-bottom: 15px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MembershipSection{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #071629;
+  background-position: center;
+  width: auto;
+  margin: 90px auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.MembershipSection h1 {
+  font-weight: lighter;
 
 }
+
+.MembershipCards{
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.MembershipCard:not(:last-child){
+  margin-right: 80px;
+}
+
+.FaqSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 90px auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.FaqSection .row{
+  display: flex;
+}
+
+.FaqSection .item{
+  padding: 40px 120px;
+  
+}
+
+.FaqSection h1{
+  color: black;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+
+.FaqSection .item h2{
+  font-size: 16px;
+  font-weight: bolder;
+  color: rgba(7, 22, 41, 1);
+  margin-bottom: 20px;
+
+}
+
+.FaqSection .item p{
+  font-size: 14px;
+  font-weight:lighter;
+  color: rgba(7, 22, 41, 0.5);
+}
+
