@@ -288,3 +288,37 @@ header {
   color: rgba(7, 22, 41, 0.5);
 }
 
+.FooterContainer{
+  text-align: center;
+  width: auto;
+  margin: 90px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #071629;
+}
+
+.footerUp {
+  padding: 50px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.SosialIcons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SosialIcons img{
+  margin-right: 20px;
+}
+
+.FooterContainer p{
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+
